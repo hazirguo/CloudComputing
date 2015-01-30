@@ -17,3 +17,21 @@ Havana   | 2013.10.17  | Nova, Glance, Swift, Horizon, Keystone, ~~Quantum~~, **
 Icehouse | 2014.4.17   | Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Heat, Ceilometer, **Trove**
 Juno     | 2014.10.16  | Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Heat, Ceilometer, Trove, **Sahara**
 Kilo     | 2015.4（***待发布***） | Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Heat, Ceilometer, Trove, Sahara, **Ironic, Zaqar, Manila, Designate, Barbican**
+
+## OpenStack 包含组件
+
+OpenStack 是一种模块化松耦合架构，由最初的只有计算和存储两个组件，逐渐增加到 J 版的 11 个组件，而且还有很多组件在开发中，各个组件有其功能和代号：
+
+组件代号 | 最早加入版本 | 功能  
+---------|--------------|---------
+Nova     | Austin       | Compute
+Swift    | Austin       | Object Storage
+Cinder   | Folsom       | Block Storage
+Neutron  | Havana       | Networking
+Horizon  | Essex        | Dashboard
+Keystone | Essex        | Indentity Service
+Glance   | Bexar        | Image Service
+Ceilometer | Havana     | Telemetry
+Heat     | Havana       | Orchestration
+Trove    | Icehouse     | Database
+Sahara   | Juno         | Elastic Map Reduce
